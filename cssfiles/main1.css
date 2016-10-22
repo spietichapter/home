@@ -33,10 +33,11 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
+footer.fcls {
     border-top: 1px solid #e8f442;
     font-size: .8em;
-    color: #ffffff
+    color: #fff;
+   
 }
 
 ul.posts { 
