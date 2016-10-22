@@ -36,6 +36,7 @@ p {
 footer {
     border-top: 1px solid #e8f442;
     font-size: .8em;
+    color: #fff
 }
 
 ul.posts { 
@@ -46,6 +47,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.fcls {
-    color: #ffffff;
-}
+
