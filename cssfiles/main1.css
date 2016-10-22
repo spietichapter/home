@@ -34,13 +34,13 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #e8f442;
+    border-top: 1px solid #999;
     font-size: 0.8em;
       
 }
 
 footer a{
-    color: #fff;
+    color: #999;
 }
 
 ul.posts { 
