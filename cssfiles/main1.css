@@ -52,4 +52,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.notactive {
+   pointer-events: none;
+   cursor: default;
+}
 
