@@ -24,10 +24,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a:active {
-  background-color: #FFFFFF;
-  opacity: 0.5;
-  color: black;
+a:visited {
+  color: purple;
 }
 h1 {
     font-size: 3em;
