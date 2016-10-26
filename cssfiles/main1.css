@@ -24,6 +24,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a:active {
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  color: black;
+}
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -53,8 +58,6 @@ ul.posts li {
     list-style: none;
 }
 .notactive {
-   background-color: #FFFFFF;
-   opacity: 0.5;
    pointer-events: none;
    cursor: default;
 }
