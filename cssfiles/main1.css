@@ -24,9 +24,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a:visited {
-  color: purple;
-}
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
