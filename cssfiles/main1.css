@@ -55,5 +55,6 @@ ul.posts li {
 .notactive {
    pointer-events: none;
    cursor: default;
+   color: black;
 }
 
