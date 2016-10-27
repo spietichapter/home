@@ -58,4 +58,7 @@ ul.posts li {
    cursor: default;
    opacity: 0.6;
 }
-
+header, footer {
+    background: white;
+    background-size: cover;
+}
