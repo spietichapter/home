@@ -1,5 +1,5 @@
 body {
-    /*margin: 60px auto;*/
+    margin: 60px auto;
     width: 70%;
      background: url(images/imagespie.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -41,6 +41,8 @@ p {
 footer {
     border-top: 1px solid #999999;
     font-size: 0.8em;
+    margin: -60px auto;
+    padding: 50px;
 }
 
 
