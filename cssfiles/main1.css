@@ -41,7 +41,10 @@ p {
 footer {
     border-top: 1px solid #999999;
     font-size: 0.8em;
-    margin: 0px auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
     
 }
 
