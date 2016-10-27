@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    /*margin: 60px auto;*/
     width: 70%;
      background: url(images/imagespie.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -15,7 +15,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    /*margin-right: 20px;*/
+    margin-right: 20px;
    
 }
 a {
