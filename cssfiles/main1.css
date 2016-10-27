@@ -16,9 +16,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    background: white;
-    margin: 40px;
-	padding: 50px;
+   
 }
 a {
     text-decoration: none;
