@@ -105,8 +105,8 @@ ul.posts li {
 }
 
 .elementdot {
-  height: 250px;
-  width: 250px;
+  height: 30px;
+  width: 30px;
   margin: 0 auto;
   background-color: red;
   animation-name: stretch;
@@ -129,7 +129,7 @@ ul.posts li {
     background-color: orange;
   }
   100% {
-    transform: scale(1.5);
+    transform: scale(1.0);
     background-color: yellow;
   }
 }
