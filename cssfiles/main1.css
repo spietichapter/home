@@ -66,6 +66,7 @@ ul.posts li {
     margin-left: -100%;
     margin-right: -23%;
     margin-top: -10%;
+    padding-bottom: 20%;
 }
 
 .teaserimage-image {
@@ -90,3 +91,13 @@ ul.posts li {
     text-indent: -9999px;
 }
 
+.text{
+  
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
