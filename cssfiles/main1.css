@@ -105,8 +105,8 @@ ul.posts li {
 }
 
 .elementdot {
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   margin: 0 auto;
   background-color: red;
   animation-name: stretch;
@@ -117,11 +117,13 @@ ul.posts li {
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
+  margin-left: 160px;
+  margin-top: -25px;
 }
 
 @keyframes stretch {
   0% {
-    transform: scale(.3);
+    transform: scale(.6);
     background-color: red;
     border-radius: 100%;
   }
@@ -129,7 +131,7 @@ ul.posts li {
     background-color: orange;
   }
   100% {
-    transform: scale(1.0);
+    transform: scale(0.9);
     background-color: yellow;
   }
 }
