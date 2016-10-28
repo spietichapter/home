@@ -89,3 +89,12 @@ background-size: cover;
     z-index: 1;
     text-indent: -9999px;
 }
+
+.image-w {
+    font: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute; 
+    top: 200px; 
+    left: 20px; 
+    width: 100%; 
+}
