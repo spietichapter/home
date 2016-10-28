@@ -94,11 +94,11 @@ ul.posts li {
 .text{
   z-index: 100;
   position: absolute;
-  font-family: 'Helvetica Neue', 'Helvetica','Arial', 'sans-serif';
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
   color: white;
   font-size: 24px;
   font-weight: bold;
-  left: 48%;
+  left: 47%;
   top: 40%;
   text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
   opacity: 0.8;
