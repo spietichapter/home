@@ -64,7 +64,7 @@ ul.posts li {
     overflow: hidden;
     background-color: #000;
 }
-.teaserimage-image{
+.teaserimage-image {
     background: url(images/experiment.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
