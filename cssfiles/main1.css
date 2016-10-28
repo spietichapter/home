@@ -69,11 +69,12 @@ ul.posts li {
 }
 
 .teaserimage-image {
-    background: url(images/experiment.jpg) no-repeat center center fixed; 
+    background: url(images/galaxy.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
+    padding: 10%;
 }
 
 }
