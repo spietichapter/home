@@ -67,16 +67,15 @@ ul.posts li {
     margin-right: -100%;
     margin-top: -10%;
 }
+
 .teaserimage-image {
     background: url(images/experiment.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
-     margin-left: -100%;
-    margin-right: -100%;
-    margin-top: -10%;
 }
+
 }
 .teaser .teaserimage-image {
     background-size: cover;
