@@ -58,13 +58,13 @@ ul.posts li {
    opacity: 0.6;
 }
 
-.teaserimage {
+.teaser {
     height: 450px;
     position: relative;
     overflow: hidden;
     background-color: #000;
 }
-.teaserimage .teaserimage-image {
+.teaser .teaserimage-image {
     background-size: cover;
     background-position: center;
     position: absolute;
