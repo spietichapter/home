@@ -117,8 +117,8 @@ ul.posts li {
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
-  margin-left: 160px;
-  margin-top: -25px;
+  margin-left: 168px;
+  margin-top: -30px;
 }
 
 @keyframes stretch {
@@ -132,7 +132,7 @@ ul.posts li {
   }
   100% {
     transform: scale(0.9);
-    background-color: yellow;
+    background-color: darkorchid;
   }
 }
 
