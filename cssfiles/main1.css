@@ -135,5 +135,14 @@ ul.posts li {
     background-color: darkorchid;
   }
 }
+#details0{
+    visibility: hidden;
+}
+#details1{
+    visibility: hidden;
+}
+#details2{
+    visibility: hidden;
+}
 
 
