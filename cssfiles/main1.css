@@ -135,6 +135,14 @@ ul.posts li {
     background-color: darkorchid;
   }
 }
-
+#details0{
+    display:none;
+}
+#details1{
+    display:none;
+}
+#details2{
+    display:none;
+}
 
 
