@@ -137,12 +137,21 @@ ul.posts li {
 }
 #details0{
     display:none;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 22.5%
 }
 #details1{
     display:none;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 22.5%
 }
 #details2{
     display:none;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 22.5%
 }
 .styleme{
     background: #000;
