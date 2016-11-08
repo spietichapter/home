@@ -184,6 +184,12 @@ opacity: 0.9;
     top: 0;
     width: 100%;
     z-index: 1000;
+    padding: 5px;
+    background: indianred;
+}
+.stylenav{
+   margin: 60px auto;
+    width: 70%;
 }
     
 
