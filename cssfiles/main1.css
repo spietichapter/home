@@ -142,7 +142,7 @@ ul.posts li {
     margin-left: -22.5%;
 padding: 10%;
 opacity: 0.9;
-    overflow-y:scroll;
+   
 }
 #details1{
     display:none;
@@ -151,7 +151,7 @@ opacity: 0.9;
     margin-left: -22.5%;
 padding: 10%;
 opacity: 0.9;
-    overflow-y:scroll;
+   
     
 }
 #details2{
@@ -161,7 +161,7 @@ opacity: 0.9;
     margin-left: -22.5%;
 padding: 10%;
 opacity: 0.9;
-    overflow-y:scroll;
+    
    
 }
 .styleme{
