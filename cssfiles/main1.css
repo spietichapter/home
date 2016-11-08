@@ -178,7 +178,12 @@ opacity: 0.9;
 .blurb {
     text-align: justify;
 }
-    
+.statical {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
     
 
 
