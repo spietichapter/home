@@ -155,7 +155,10 @@ ul.posts li {
     opacity: 0.8;
     
 }
-
+.blurb {
+    display: flex;
+    justify-content: space-around;
+}
     
     
 
