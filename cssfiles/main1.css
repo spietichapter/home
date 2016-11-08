@@ -197,7 +197,10 @@ opacity: 0.9;
 .initiation{
     background: #68121E;
     margin: 60px auto;
-    width: 70%;  
+    width: 70%; 
+    margin-left: -22.5%;
+    margin-right: -22.5%;
+    padding: 3%
 }
 .headingspie{
     color: #fff;
