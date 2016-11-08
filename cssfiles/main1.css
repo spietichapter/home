@@ -206,8 +206,9 @@ opacity: 0.9;
 }
 .headingspie{
     color: #fff;
-    font-size: 3em;
+    font-size: 4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 60%;
 }
     
 
