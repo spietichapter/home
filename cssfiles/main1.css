@@ -156,7 +156,6 @@ ul.posts li {
     
 }
 .blurb {
-    display: flex;
     justify-content: space-around;
 }
     
