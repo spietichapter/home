@@ -289,12 +289,8 @@ opacity: 0.9;
       height:100%;	      
 }
 .videostack1{
-    width: 570px;
-	display: inline-block;
-	/*spacing between two elements - extra,not directed by professor*/
-    margin-left: 50%;
-    height: 100%;
-    margin-top: -60%;
-    padding: 10px
+    display: inline-block;
+margin-top: -100%;
+padding: 30px
 }
 
