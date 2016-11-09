@@ -291,11 +291,15 @@ opacity: 0.9;
 .videostack1{
     display: inline-block;
 margin-top: -100%;
-padding: 30px
+padding: 67px;
+    margin-bottom: -20px;
 }
 .videostack2{
     display: inline-block;
 margin-top: -100%;
-padding: 50px
 }
 
+.videowrapper{
+    border-top: 1px solid #999999;
+    font-size: 0.8em;
+}
