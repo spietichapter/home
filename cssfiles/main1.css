@@ -72,10 +72,6 @@ ul.posts li {
 }
 
 .teaserimage-image {
-    background: url(images/galaxy.jpg) no-repeat center center fixed; 
-    background: url(images/light.jpg) no-repeat center center fixed;
-    background: url(images/education.jpg) no-repeat center center fixed;
-    background: url(images/technology.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
