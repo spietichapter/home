@@ -59,7 +59,7 @@ ul.posts li {
     
     
 }
-/*
+
 .teaser {
     height: 450px;
     position: relative;
@@ -105,7 +105,7 @@ ul.posts li {
   top: 40%;
   text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
   opacity: 0.8;
-}*/
+}
 
 .elementdot {
   height: 35px;
@@ -213,10 +213,9 @@ opacity: 0.9;
 }
 /* slideshow container*/
 .slideshow-container {
-  width: 70%;
-  margin-left: -22.5%;
-   margin-right: -22.5%
+  width: 1000px;
   position: relative;
+    margin: auto;
 }
 /* Next & previous buttons */
 .prev, .next {
