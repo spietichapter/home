@@ -284,10 +284,7 @@ opacity: 0.9;
   from {opacity: .4}
   to {opacity: 1}
 }*/
-   .videostack,.videostack2 {
-    float: left;
-} 
-.clearfix{
-    clear:both
+  .videostack{
+      display:inline-block;
 }
 
