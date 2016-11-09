@@ -286,15 +286,15 @@ opacity: 0.9;
 }*/
   .videostack{
       display:inline-block;
-      float: left;
-      height:100%
+      height:100%;	      
 }
 .videostack1{
     width: 570px;
 	display: inline-block;
-	float: left;
 	/*spacing between two elements - extra,not directed by professor*/
-	margin-left: 20px;
+    margin-left: 50%;
     height: 100%;
+    margin-top: -60%;
+    padding: 10px
 }
 
