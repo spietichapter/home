@@ -211,7 +211,12 @@ opacity: 0.9;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     width: 60%;
 }
-
+/* slideshow container*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
