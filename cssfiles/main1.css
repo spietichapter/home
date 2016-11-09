@@ -286,5 +286,6 @@ opacity: 0.9;
 }*/
   .videostack{
       display:inline-block;
+      float: left;
 }
 
