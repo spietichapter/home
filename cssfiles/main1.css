@@ -81,7 +81,7 @@ ul.posts li {
 
 }
 .teaser .teaserimage-image {
-    background:no-repeat center center fixed;
+    background: url(images/galaxy.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -210,9 +210,7 @@ opacity: 0.9;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     width: 60%;
 }
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
+
 
     
 
