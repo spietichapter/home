@@ -4,11 +4,19 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="cssfiles/main1.css">
+		<script type="text/javascript" src = "js/spiedefjs.js"></script>
 	</head>
 	<body>
 		
 		<div class="teaser">
-	        <div class="teaserimage-image">Teaser Image</div>
+	        <div class="teaserimage-image">
+			<img class="mySlides" src="cssfiles/images/galaxy.jpg" style="width:100%">
+			<img class="mySlides" src="cssfiles/images/light.jpg" style="width:100%">
+			<img class="mySlides" src="cssfiles/images/education.jpg" style="width:100%">
+			<img class="mySlides" src="cssfiles/images/technology.jpg" style="width:100%">
+			     
+                 </div>
+			<!-- text animation-->
 			<div class="text">
                                <h2>
 				<span class="lfd" style="transition-delay: 0s;">S</span>
@@ -19,7 +27,15 @@
 				<span class="lfd" style="transition-delay: 0.0666666s;">Techno India Student Chapter</span>
 				</h2>
                         </div>
-		</div>
+			<!-- ------ -->
+			<div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)">..</span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)">..</span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)">..</span>
+  </div>
+</div>
 		
 		<nav>
     		<ul>
