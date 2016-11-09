@@ -81,6 +81,7 @@ ul.posts li {
 
 }
 .teaser .teaserimage-image {
+    background:no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     position: absolute;
