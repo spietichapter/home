@@ -72,6 +72,7 @@ ul.posts li {
 }
 
 .teaserimage-image {
+    background: url(images/galaxy.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -81,7 +82,7 @@ ul.posts li {
 
 }
 .teaser .teaserimage-image {
-    background: url(images/galaxy.jpg) no-repeat center center fixed;
+    
     background-size: cover;
     background-position: center;
     position: absolute;
