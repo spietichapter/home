@@ -211,14 +211,15 @@ opacity: 0.9;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     width: 60%;
 }
+/*
 /* slideshow container*/
-.slideshow-container {
+/*.slideshow-container {
   width: 1000px;
   position: relative;
     margin: auto;
 }
 /* Next & previous buttons */
-.prev, .next {
+/*.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -233,13 +234,13 @@ opacity: 0.9;
 }
 
 /* Position the "next button" to the right */
-.next {
+/*.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/*.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 .numbertext {
@@ -251,7 +252,7 @@ opacity: 0.9;
 }
 
 /* The dots/bullets/indicators */
-.dot {
+/*.dot {
   cursor:pointer;
   height: 13px;
   width: 13px;
@@ -267,7 +268,7 @@ opacity: 0.9;
 }
 
 /* Fading animation */
-.fade {
+/*.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -282,7 +283,7 @@ opacity: 0.9;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+}*/
     
 
 
