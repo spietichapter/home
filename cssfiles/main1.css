@@ -287,5 +287,14 @@ opacity: 0.9;
   .videostack{
       display:inline-block;
       float: left;
+      height:100%
+}
+.videostack1{
+    width: 570px;
+	display: inline-block;
+	float: left;
+	/*spacing between two elements - extra,not directed by professor*/
+	margin-left: 20px;
+    height: 100%;
 }
 
