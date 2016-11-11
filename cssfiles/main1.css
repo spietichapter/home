@@ -336,11 +336,11 @@ margin-top: -100%;
   color: white;
   font-size: 16px;
   font-weight: bold;
-  top: 30%;
-  left: 4%;
+  top: 10%;
+  right: 4%;
   text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
     border: 2px solid #FFF;
-    border-radius: 5px;
+    border-radius: 3px;
     opacity: 0.8;
 }
 .myactive:hover {
