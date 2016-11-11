@@ -239,13 +239,13 @@ padding-bottom: 20%;
 }
 
 /* Position the "next button" to the right */
-/*.next {
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-/*.prev:hover, .next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 .numbertext {
@@ -257,7 +257,7 @@ padding-bottom: 20%;
 }
 
 /* The dots/bullets/indicators */
-/*.dot {
+.dot {
   cursor:pointer;
   height: 13px;
   width: 13px;
@@ -273,7 +273,7 @@ padding-bottom: 20%;
 }
 
 /* Fading animation */
-/*.fade {
+.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -299,6 +299,7 @@ margin-top: -100%;
 padding: 8%;
 margin-bottom: -5%;
 }
+/* ---------- change _-----------*/
 .videostack2{
     display: inline-block;
 margin-top: -100%;
