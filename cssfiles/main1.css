@@ -321,3 +321,11 @@ margin-top: -100%;
     border-top: 1px solid #999999;
     font-size: 0.8em;
 }
+
+.myactive{
+    color: #fff;
+}
+.myactive:hover {
+    text-decoration: underline;
+    content: 'Hot Served!'
+}
