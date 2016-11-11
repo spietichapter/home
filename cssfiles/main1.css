@@ -211,21 +211,26 @@ opacity: 0.9;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     width: 60%;
 }
-/*
+
 /* slideshow container*/
-/*.slideshow-container {
-  width: 1000px;
-  position: relative;
-    margin: auto;
+.slideshow-container {
+height: 450px;
+position: relative;
+overflow: hidden;
+background-color: #000;
+margin-left: -22.3%;
+margin-right: -23%;
+margin-top: -10%;
+padding-bottom: 20%;
 }
 /* Next & previous buttons */
-/*.prev, .next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 3%;
   color: white;
   font-weight: bold;
   font-size: 18px;
