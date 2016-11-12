@@ -401,11 +401,11 @@ margin-top: -100%;
     transition-delay: .4s;
 }
 
-
-/* --------Written by Amit- If doesn't work -please remove the part------------*/
-
 div.mytext
-     {
-       clear:both;
+{
+    margin-bottom: 20em;
+    padding-bottom: 10px;
 }
+
+    
 
