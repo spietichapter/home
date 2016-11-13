@@ -344,8 +344,9 @@ padding-bottom: 20%;
 }
 /* button change */
 
+
 .button {
-z-index: 100;
+     z-index: 100;
   position: absolute;
   font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
   color: white;
@@ -358,8 +359,7 @@ z-index: 100;
     border-radius: 300px;
     opacity: 0.8;
     padding: 1%;
-        background: transparent;
-    font-family: 'raleway', sans-serif;
+background: transparent;
 }
 
 .button span {
@@ -375,7 +375,7 @@ z-index: 100;
 
 .button:before,
 .button:after {
-     content: '';
+    content: '';
     position: absolute; 
     left: 0;
     width: 100%;
@@ -411,6 +411,15 @@ z-index: 100;
 
 /* Span on :hover and :active */
 
+.button:hover span,
+.button:active span {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
 
 /*  
     We show :before pseudo-element on :hover 
@@ -430,7 +439,6 @@ z-index: 100;
     -o-transition-delay: .4s;
     transition-delay: .4s;
 }
-
 
 
 #b, #c, #d{
