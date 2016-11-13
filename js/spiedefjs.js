@@ -26,3 +26,24 @@ function showSlides(n) {
 }
 
 
+var slideIn = 1;
+showTexts(slideIn);
+
+function plustext(n) {
+  showTexts(slideIn += n);
+}
+
+function currenttext(n) {
+  showTexts(slideIn = n);
+}
+function showTexts(n){
+  var x;
+  var tslides = document.getElementsByClassName("mytext");
+  if (n > tslides.length) {slideIn = 1}
+  
+  if (n < 1) {slideIn = tslides.length}
+  for (x = 0; x < tslides.length; x++) {
+      tslides[x].style.display = "none";
+  }
+  tslides[slideIn-1].style.display = "block";
+}
