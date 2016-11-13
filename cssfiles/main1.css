@@ -296,17 +296,18 @@ margin-top: -34%;
 
 .videostack{
       display:inline-block;
-      height:100%;	      
+      position: absolute;
+    width: 28vw;
 }
 .videostack1{
     display: inline-block;
-    margin-top: -100%;
-    padding: 8%;
-    margin-bottom: -5%;
+    margin-left: 28.2vw;
+    position: absolute;
 }
 .videostack2{
     display: inline-block;
-    margin-top: -100%;
+    margin-left: -56.5vw;
+    position: relative;
 }
 
 .videowrapper{
