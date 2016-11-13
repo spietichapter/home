@@ -25,25 +25,31 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
-var slideIn = 1;
-showTexts(slideIn);
-
-function plustext(n) {
-  showTexts(slideIn += n);
-}
-
-function currenttext(n) {
-  showTexts(slideIn = n);
-}
-function showTexts(n){
-  var x;
-  var tslides = document.getElementsByClassName("mytext");
-  if (n > tslides.length) {slideIn = 1}
-  
-  if (n < 1) {slideIn = tslides.length}
-  for (x = 0; x < tslides.length; x++) {
-      tslides[x].style.display = "none";
+function nomore{
+  if (slideIndex == 1 )
+  {document.getElementById("a").style.display='block';
+	document.getElementById("b").style.display='none';
+document.getElementById("c").style.display='none';
+	document.getElementById("d").style.display='none';
   }
-  tslides[slideIn-1].style.display = "block";
+   if (slideIndex == 2 )
+  {document.getElementById("b").style.display='block';
+	document.getElementById("a").style.display='none';
+document.getElementById("c").style.display='none';
+	document.getElementById("d").style.display='none';
+  }
+   if (slideIndex == 3 )
+  {document.getElementById("c").style.display='block';
+	document.getElementById("a").style.display='none';
+document.getElementById("b").style.display='none';
+	document.getElementById("d").style.display='none';
+  }
+   if (slideIndex == 4  )
+  {document.getElementById("d").style.display='block';
+	document.getElementById("b").style.display='none';
+document.getElementById("c").style.display='none';
+	document.getElementById("a").style.display='none';
+  }
 }
+
+    
