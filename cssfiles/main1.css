@@ -352,17 +352,20 @@ padding-bottom: 20%;
 /* button change */
 
 .button {
-    display: inline-block;
-    position: relative;
-    margin: 1em;
-    padding: 0.67em;
+z-index: 100;
+  position: absolute;
+  font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  top: 8%;
+  right: 3%;
+  text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
     border: 2px solid #FFF;
-    overflow: hidden;
-    text-decoration: none;
-    font-size: 2em;
-    outline: none;
-    color: #FFF;
-    background: transparent;
+    border-radius: 300px;
+    opacity: 0.8;
+    padding: 1%;
+        background: transparent;
     font-family: 'raleway', sans-serif;
 }
 
@@ -379,13 +382,14 @@ padding-bottom: 20%;
 
 .button:before,
 .button:after {
-    content: '';
+     content: '';
     position: absolute;
-    top: 0.67em;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
+  font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  top: 8%;
+  right: 3%; 
     -webkit-transition: .4s,opacity .6s;
     -moz-transition: .4s,opacity .6s;
     -o-transition: .4s,opacity .6s;
