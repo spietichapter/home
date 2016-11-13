@@ -301,18 +301,19 @@ margin-top: -34%;
 }
 .videostack1{
     display: inline-block;
-    margin-left: 28.2vw;
+    margin-left: 25.5vw;
     position: absolute;
 }
 .videostack2{
     display: inline-block;
-    margin-left: -56.5vw;
+    margin-left: 50vw;
     position: relative;
 }
 
 .videowrapper{
     border-top: 1px solid #999999;
     font-size: 0.8em;
+    margin-bottom: 3vw;
 }
 
 .chaptereport{
