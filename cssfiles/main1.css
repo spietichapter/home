@@ -95,18 +95,20 @@ ul.posts li {
 }
 
 .mywholediv{
-    padding: 2%;
-        margin:1%;
+    padding: 4%;
+    margin:  2%;
+    top: 20%;
+    position: absolute; 
 }   
     
 .text{
   z-index: 100;
-  position: absolute;
+  position: relative;
   font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
   color: white;
   font-size: 1.86vw;
   font-weight: bold;
-  top: 30%;
+  top: 10%;
   text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
   opacity: 0.8;
     margin: 3%
@@ -220,14 +222,13 @@ opacity: 0.9;
 
 /* slideshow container*/
 .slideshow-container {
-height: 450px;
+height: 90vw;
 position: relative;
 overflow: hidden;
 background-color: #000;
 margin-left: -22.3%;
 margin-right: -23%;
-margin-top: -10%;
-padding-bottom: 20%;
+margin-top: -34%;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -289,20 +290,9 @@ padding-bottom: 20%;
   to {opacity: 1}
 }
 
-/*.mytext{
-    
-  z-index: 100;
-  position: absolute;
-  font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  top: 67%;
-  left: 14%;
-  padding: 2%;
-  text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
-  opacity: 0.8;
-}*/
+.mytext{   
+  position: relative;
+}
 
 .videostack{
       display:inline-block;
@@ -455,10 +445,10 @@ background: transparent;
   position: absolute;
   font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
   color: white;
-  font-size: 16px;
+  font-size: 1.8vw;
   font-weight: bold;
-  top: 67%;
-  left: 14.3%;
+  top: -35%;
+  left: 1%;
   padding: 2%;
   text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
   opacity: 0.8;
@@ -469,10 +459,10 @@ background: transparent;
   position: absolute;
   font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.8vw;
   font-weight: bold;
-  top: 67%;
-  left: 14%;
+  top: -35%;
+  left: 1%;
   padding: 2%;
   text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
   opacity: 0.8;
