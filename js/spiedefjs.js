@@ -25,7 +25,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function nomoreFuss{
-     document.getElementById("myid").style.display='none'
-}
-  
+
