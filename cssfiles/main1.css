@@ -403,8 +403,22 @@ padding-bottom: 20%;
 }
 
 
-#a, #b, #c, #d{
+#b, #c, #d{
     display:none;
+    z-index: 100;
+  position: absolute;
+  font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  top: 67%;
+  left: 14%;
+  padding: 2%;
+  text-shadow: 1px 2px 4px #4A4B0D, 0 0 6px #E19476, 0 0 10px #107C99;
+  opacity: 0.8;
+}
+#a{
+    display:block;
     z-index: 100;
   position: absolute;
   font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
