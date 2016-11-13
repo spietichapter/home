@@ -3,6 +3,7 @@ showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  
 }
 
 function currentSlide(n) {
@@ -14,6 +15,18 @@ function showSlides(n) {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
+  if (slideIndex == 1){
+    updatemy1();
+  }
+  if (slideIndex == 2){
+    updatemy2();
+  }
+  if (slideIndex == 3){
+    updatemy3();
+  }
+  if (slideIndex == 4){
+    updatemy4();
+  }
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
@@ -25,6 +38,31 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function updatemy1() {
+  document.getElementById("a").style.display='block';
+	document.getElementById("b").style.display='none';
+document.getElementById("c").style.display='none';
+  document.getElementById("d").style.display='none';
+}
+function updatemy2() {
+  document.getElementById("b").style.display='block';
+	document.getElementById("a").style.display='none';
+document.getElementById("c").style.display='none';
+  document.getElementById("d").style.display='none';
+}
+function updatemy3() {
+  document.getElementById("c").style.display='block';
+	document.getElementById("b").style.display='none';
+document.getElementById("a").style.display='none';
+  document.getElementById("d").style.display='none';
+}
+function updatemy4() {
+  document.getElementById("d").style.display='block';
+	document.getElementById("b").style.display='none';
+document.getElementById("c").style.display='none';
+  document.getElementById("a").style.display='none';
+}
 
+  
 
     
