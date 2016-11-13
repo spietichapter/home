@@ -97,7 +97,7 @@ ul.posts li {
 .mywholediv{
     padding: 4%;
     margin:  2%;
-    top: 20%;
+    top: 15vw;
     position: absolute; 
 }   
     
@@ -466,6 +466,6 @@ background: transparent;
   opacity: 0.8;
 }
     .mySlides{
-        width: 100%;
+        width: 116%;
 }
 
