@@ -309,13 +309,13 @@ padding-bottom: 20%;
 }
 .videostack1{
     display: inline-block;
-margin-top: -100%;
-padding: 8%;
-margin-bottom: -5%;
+    margin-top: -100%;
+    padding: 8%;
+    margin-bottom: -5%;
 }
 .videostack2{
     display: inline-block;
-margin-top: -100%;
+    margin-top: -100%;
 }
 
 .videowrapper{
