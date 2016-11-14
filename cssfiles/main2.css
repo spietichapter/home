@@ -2585,7 +2585,7 @@
 	#header {
 		text-align: center;
 		padding: 8vw 0 2vw 0;
-		margin: -0.5vw
+		margin: -2vw
 	}
 
 		#header h1 {
@@ -2670,4 +2670,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
    
+}
+nav ul li a:hover{
+    text-decoration: underline;
 }
