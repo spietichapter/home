@@ -204,7 +204,7 @@ opacity: 0.9;
 }
 
 .initiation{
-    background: #68121E; 
+    background: #0cecf0; 
     margin-left: -22.5%;
     margin-right: -22.5%;
     margin-top: -50px;
@@ -212,9 +212,10 @@ opacity: 0.9;
     border-radius: 5px;
     text-align: center;
     opacity: 0.8;
+    filter: blur(10px);
 }
 .headingspie{
-    color: #fff;
+    color: #000;
     font-size: 4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     width: 60%;
