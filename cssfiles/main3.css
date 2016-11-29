@@ -43,12 +43,13 @@ footer {
     font-size: 0.8em;*/
     margin-left: -22.5%;
     margin-right: -22.5%;
-    margin-top: -50px;
+    margin-bottom: -10%;
     padding: 6%;
     border-radius: 5px;
     text-align: center;
     opacity: 0.8;
     border: 1px solid white;
+    background: #2c323799;
 }
 
 
