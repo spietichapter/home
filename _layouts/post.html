@@ -1,0 +1,11 @@
+---
+layout: default7
+---
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+
+{% include disqus.html %}
+</div>
