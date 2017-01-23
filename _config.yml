@@ -1,6 +1,6 @@
 name: The Techno India Spie Student Chapter
 markdown: kramdown
 
-permalink: blog/:year/:month/:day/:title
+permalink: spieti/:year/:month/:day/:title.html
 
 
